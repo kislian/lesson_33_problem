@@ -17,7 +17,8 @@ public class Book {
     private long id;
     private String name;
     private String author;
-
+    public Book(){
+    }
     @Override
     public String toString() {
         return "Book{" +
